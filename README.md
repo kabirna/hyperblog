@@ -244,6 +244,12 @@ Podemos utilizar distintos tipos de cifrado, el mas comun es RSA al ser mas comp
 
 3. Registrar las llaves con `ssh-agent`
 
+    Iniciar el agente con:
+
+    ```bash
+    eval $(ssh-agent) 
+    ```
+
     En nuestro equipo local usaremos **ssh-agent** para agregar la llave privada:
 
     ```bash
